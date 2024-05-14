@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #00bcd4;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #00bcd4;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-title {
+            color: #00bcd4;
+            border-bottom: 2px solid #00bcd4;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .profile, .education, .experience, .projects, .contact, .blog, .gallery, .videos {
+            margin-bottom: 40px;
+        }
+        .contact ul, .social-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact li, .social-links li {
+            margin: 10px 0;
+        }
+        .gallery img, .videos iframe {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .gallery, .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>我的个人网页</h1>
+    <nav>
+        <a href="#profile">个人简介</a>
+        <a href="#education">教育背景</a>
+        <a href="#experience">工作经验</a>
+        <a href="#projects">项目展示</a>
+        <a href="#contact">联系方式</a>
+        <a href="#blog">博客</a>
+        <a href="#gallery">图片画廊</a>
+        <a href="#videos">视频展示</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="profile" class="profile">
+        <h2 class="section-title">个人简介</h2>
+        <p>在这里写你的个人简介。</p>
+    </section>
+
+    <section id="education" class="education">
+        <h2 class="section-title">教育背景</h2>
+        <p>在这里列出你的教育背景。</p>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">工作经验</h2>
+        <p>在这里列出你的工作经验。</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">项目展示</h2>
+        <p>在这里展示你的项目。</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">联系方式</h2>
+        <ul>
+            <li>邮箱: example@example.com</li>
+            <li>电话: 123-456-7890</li>
+        </ul>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2 class="section-title">博客</h2>
+        <p>在这里编写和展示你的博客文章。</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">图片画廊</h2>
+        <img src="image1.jpg" alt="图片1">
+        <img src="image2.jpg" alt="图片2">
+        <img src="image3.jpg" alt="图片3">
+    </section>
+
+    <section id="videos" class="videos">
+        <h2 class="section-title">视频展示</h2>
+        <iframe src="https://www.youtube.com/embed/example1" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/example2" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section class="social-links">
+        <h2 class="section-title">社交媒体链接</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
